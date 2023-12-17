@@ -15,6 +15,9 @@ module.exports = {
         darkGrayishBlue: "hsl(210, 10%, 33%)",
         grayishBlue: "hsl(201, 11%, 66%)",
       },
+      fontFamily: {
+        sans: ["Bai Jamjuree", "sans-serif"],
+      },
     },
   },
   plugins: [],
