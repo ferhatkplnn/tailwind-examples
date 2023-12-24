@@ -7,3 +7,4 @@
 - [Logim Modal](https://ferhatkplnn.github.io/tailwind-examples/login-modal/index.html)
 - [Clipboard Website](https://ferhatkplnn.github.io/tailwind-examples/clipboard-website/index.html)
 - [Loopstudios Website](https://ferhatkplnn.github.io/tailwind-examples/loopstudios-website/index.html)
+- [Shortly Website](https://ferhatkplnn.github.io/tailwind-examples/shortly-website/index.html)
