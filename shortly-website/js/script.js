@@ -2,7 +2,11 @@ const input = document.getElementById("link-input");
 const linkForm = document.getElementById("link-form");
 const errMsg = document.getElementById("err-msg");
 
+const menuBtn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+
 linkForm.addEventListener("submit", formSubmit);
+menuBtn.addEventListener("click", toggleNavigation);
 
 function formSubmit(e) {
   e.preventDefault();
@@ -27,4 +31,10 @@ function isValidUrl(url) {
   } catch (error) {
     return false;
   }
+}
+
+function toggleNavigation() {
+  menuBtn.classList.toggle("open");
+  menu.classList.toggle("hidden");
+  menu.classList.toggle("flex");
 }
