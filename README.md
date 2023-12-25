@@ -8,3 +8,4 @@
 - [Clipboard Website](https://ferhatkplnn.github.io/tailwind-examples/clipboard-website/index.html)
 - [Loopstudios Website](https://ferhatkplnn.github.io/tailwind-examples/loopstudios-website/index.html)
 - [Shortly Website](https://ferhatkplnn.github.io/tailwind-examples/shortly-website/index.html)
+- [DEMO](https://ferhatkplnn.github.io/tailwind-examples/testimonial-grid/index.html)
