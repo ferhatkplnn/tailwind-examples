@@ -16,14 +16,22 @@
 
 <body>
   <!-- Header Section -->
-  <header class=" bg-black py-6 lg:py-12 text-gega-grey font-gemunu uppercase">
+  <header class=" bg-black py-6 lg:py-12 text-gega-grey ">
     <!-- Header Container -->
-    <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+    <div class="container max-md:px-4 flex items-center justify-between space-x-8 lg:space-x-16">
       <!-- Logo  -->
       <a href="#"
         class="text-4xl lg:text-6xl font-bold text-transparent  bg-gradient-to-r bg-clip-text  from-gega-red  to-gega-grey">GEGA</a>
+      <!-- Hamburger menu -->
+      <div class="block md:hidden">
+        <div class="space-y-1 cursor-pointer">
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+        </div>
+      </div>
       <!-- Nav -->
-      <nav class="flex justify-between flex-1">
+      <nav class="hidden md:flex justify-between flex-1">
         <!-- Menu -->
         <div class="flex items-center text-md lg:text-lg  space-x-4 lg:space-x-8">
           <a href="#" class="hover:text-gega-melon transition duration-500">movies</a>
